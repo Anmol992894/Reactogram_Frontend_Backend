@@ -1,0 +1,68 @@
+.profile-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.profile-img-small{
+    width: 70px;
+    height: 80px;
+    border-radius: 50%;
+}
+.bord{
+    border-left: 4px solid black;
+
+}
+.container{
+    width: 76vw !important;
+}
+.buton{
+    width: 10vw !important;
+}
+@media only screen and (max-width:450px){
+    .buton{
+        width: 33vw !important;
+    }
+
+    .profile-flex{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.upload-box{
+    width: 100%;
+    height: 360px;
+    border:4px dotted gray;
+    border-radius: 10px;
+    position: relative;
+}
+.dropZoneOverlay, .Fileupload,.dropZoneContainer{
+    width:283px;
+    height: 90px;
+}
+.dropZoneContainer{
+    position: relative;
+    top:90px ;
+    /* left: 35px; */
+}
+
+.dropZoneOverlay{
+    color:#7066fb;
+    font-family: cursive;
+    border: dotted 1px;
+    position: absolute;
+    top: 0px;
+    text-align: center;
+}
+.Fileupload{
+    position: relative;
+    z-index: 1;
+}
+
+.custom-btn-white{
+    border: 2px solid #f43756;
+    background-color: #f43756;
+    color: #fff;
+    padding: 14px;
+    width: 100px;
+}

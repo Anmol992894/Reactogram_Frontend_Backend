@@ -1,0 +1,75 @@
+.App{
+    background-color: antiquewhite;
+}
+.navbar{
+    height: 75px !important;
+}
+.searchbox{
+    width: 30vw !important;
+    padding: 10px !important;
+}
+.loginbody{
+    margin-top: 5rem;
+    font-family: 'Poppins', 'sans-serif';
+    margin-bottom: 5rem;
+}
+.login-img{
+    width: 100%;
+    height: 450px;
+    display: block;
+}
+.loginsmall-img{
+    display: none;
+}
+.login-input{
+    font-size: 0.9rem;
+    height: 2.9rem;
+}
+.search-icon{
+    display: none !important;
+}
+@media only screen and (max-width:450px)  {
+    .logo-nav{
+        width: 140px;
+    }
+    .loginbody{
+        margin-top: 1rem !important;
+        margin-bottom: 1rem !important;
+
+    }
+    .pad-icon{
+        padding: 5px !important;
+    }
+    .search-icon{
+        display: block !important;
+    }
+    .searchbox{
+        display: none !important;
+    }
+    .img-cont{
+        border: none !important;
+    }
+    .login-img{
+        display: none;
+    }
+    .loginsmall-img{
+        display: block;
+    }
+    .loginbody{
+        margin-top: 2.5rem;
+    }
+    .card{
+        border: none !important;
+    }
+    .card-body{
+        padding-left: 1.4rem !important;
+        padding-right: 1.4rem !important;
+    }
+    .shadow{
+        box-shadow: none !important;
+    }
+}
+.card{
+    width: 100%;
+    height: 100%;
+}
